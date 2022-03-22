@@ -48,7 +48,7 @@ auth
       })
     })
     alert("SignUp Sucess")
-    navigate("/login")
+    navigate("/")
 }
     return (
         <div>
@@ -99,7 +99,7 @@ auth
                       <Login__divider>
                           <hr /> <span>OR</span> <hr />
                       </Login__divider>
-                      <Link to="/Login">
+                      <Link to="/">
                      <ButtonSecondry name="Sign IN" type='Submit'  />
                      </Link>
                    
