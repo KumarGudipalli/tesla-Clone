@@ -44,6 +44,7 @@ auth
      
       }).catch((err)=>{
           console.log(err)
+          alert("enter all details")
       })
     })
     alert("SignUp Sucess")
@@ -86,10 +87,10 @@ auth
                             <input type="passWord" id='passWord' value={password} onChange={(e) => {
                                 setPassword(e.target.value)
                             }} />
-                           <Link to="/Login">
+                          
                            <ButtonPrimary  name="Create Account" type="Submit" onClick={Signup}  />
 
-                           </Link>
+                         
 
  
                         </form>
@@ -98,9 +99,9 @@ auth
                       <Login__divider>
                           <hr /> <span>OR</span> <hr />
                       </Login__divider>
-                    
+                      <Link to="/Login">
                      <ButtonSecondry name="Sign IN" type='Submit'  />
-
+                     </Link>
                    
                   <br>
                   </br>

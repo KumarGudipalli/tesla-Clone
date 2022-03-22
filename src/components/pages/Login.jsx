@@ -32,6 +32,7 @@ const Signin = (e) => {
 navigate('/')
      }).catch((error)=>{
 console.log(error)
+alert("enter correct details")
      })
 
      
