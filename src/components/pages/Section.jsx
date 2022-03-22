@@ -98,7 +98,7 @@ padding-top: 10px;
 `
 
 const DownArrow = styled.img`
-margin-top: 40px;
+margin-top: 20px;
 height: 40px;
 overflow-x: hidden;
 animation: animateDown infinite 1.5s;
