@@ -29,7 +29,7 @@ const Signin = (e) => {
             displayName: userAuth.user.displayName,
           })
         )
-navigate('/')
+navigate('/home')
      }).catch((error)=>{
 console.log(error)
 alert("enter correct details")
